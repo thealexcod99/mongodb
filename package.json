@@ -1,0 +1,17 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "Conectar node con mongo, usando mongdb como driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/menu.js"
+  },
+  "author": "Manuel Molino",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.4",
+    "readline-sync": "^1.4.10",
+    "simple-menu": "^1.0.1"
+  }
+}
